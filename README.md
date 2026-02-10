@@ -14,6 +14,7 @@ Instalar dependencias:
 ```python
 pip install wfdb numpy matplotlib seaborn
 ```
+mamahuevo
 ----
 ## Introducción
 En este laboratorio  se observo cómo se comportan las señales tanto en el tiempo como en la frecuencia. Lo haremos aplicando tres técnicas fundamentales: la convolución, la correlación y la transformada de Fourier. Además del análisis de una señal electromiografía (EMG).
