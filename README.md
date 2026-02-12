@@ -20,7 +20,7 @@ En este laboratorio se analizó el patrón y la frecuencia respiratoria mediante
 En este laboratorio se estudió el patrón y la frecuencia respiratoria mediante la adquisición y análisis de una señal biológica con sensores, Arduino y MATLAB. Esta práctica brinda una base teórica y aplicada sobre el monitoreo respiratorio, permitiendo comprender su relevancia dentro de la instrumentación biomédica y su utilidad en contextos reales de evaluación fisiológica.
 
 -----
-
+### 1. INTRODUCIÓN
 ## Proceso Respiratorio
 La respiración es un proceso vital para el funcionamiento normal en todos los niveles de organización, desde la célula hasta el organismo. El oxígeno, suministrado por la circulación local a nivel tisular, funciona en la membrana interna mitocondrial como mediador esencial para la liberación de energía. En las mitocondrias, los nutrientes digeridos experimentan reacciones metabólicas, llegan a la cadena de transporte de electrones y liberan compuestos de alta energía (p. ej., trifosfato de adenosina). El principal subproducto de este proceso, el dióxido de carbono, se libera en la sangre venosa y regresa a los pulmones. El dióxido de carbono se difunde a través de las paredes alveolares y se disuelve en el aire exhalado. La frecuencia respiratoria (es decir, el número de respiraciones por minuto) está altamente regulada para que las células produzcan la energía óptima en cualquier momento. Un complejo sistema nervioso de tejidos nerviosos regula la tasa de entrada de oxígeno y la tasa de salida de dióxido de carbono, ajustándola en consecuencia en condiciones que alteran las presiones parciales de los gases en la sangre. La respiración involucra el cerebro, el tronco encefálico, los músculos respiratorios, los pulmones, las vías respiratorias y los vasos sanguíneos. Todas estas estructuras tienen una participación estructural, funcional y reguladora en la respiración. [1]
 
@@ -31,15 +31,38 @@ La respiración es un proceso vital para el funcionamiento normal en todos los n
   Fig 1. Proceso respiratorio
 </p>
 
+### 2. OBJETIVOS
+### Objetivo General
 
-### 1. Convolución entre la señal x[n] y del sistema h[n]
+### Objetivos especificos
+
+### 3. PARTE A
+### Variables fisicas
+### Sensor seleccionado
+### montaje fisico
+### Sistema de Adquisición 
+### Señal en Serial Plotter (Reposo-Habla)
+
+### 4. PARTE B
+### Captura de la señal 
+### Filtrado
+### Comparación de graficas
+### Dominio de la frecuencia
+
+### 5. ANALISIS DE RESULTADOS
+
+### 6. CONCLUSIONES
+
+### 7. PREGUNTAS
+
+### 8. BIBLIOGRAFIAS
+
+
+
+
+
 ```python
-h = [5,6,0,0,7,7,5]
-x = [1,0,1,4,6,6,0,7,0,8]
-y = np.convolve(x,h,mode='full')
-print('h[n] =', h)
-print('x[n] =',x)
-print('y[n] =',y)
+
 ```
 $$
 h[n] = \begin{bmatrix}
