@@ -32,7 +32,35 @@ La respiración es un proceso vital para el funcionamiento normal en todos los n
 </p>
 
 
-### 1. Convolución entre la señal x[n] y del sistema h[n]
+### 2. OBJETIVOS
+### Objetivo General
+
+### Objetivos especificos
+
+### 3. PARTE A
+### Variables fisicas
+### Sensor seleccionado
+### montaje fisico
+### Sistema de Adquisición 
+### Señal en Serial Plotter (Reposo-Habla)
+
+### 4. PARTE B
+### Captura de la señal 
+### Filtrado
+### Comparación de graficas
+### Dominio de la frecuencia
+
+### 5. ANALISIS DE RESULTADOS
+
+### 6. CONCLUSIONES
+
+### 7. PREGUNTAS
+
+### 8. BIBLIOGRAFIAS
+
+
+
+
 ```python
 h = [5,6,0,0,7,7,5]
 x = [1,0,1,4,6,6,0,7,0,8]
