@@ -1,7 +1,7 @@
 # Instrumentación Biomédica y Biosensores 
  LABORATORIO - 1 Monitoreo del patrón y frecuencia respiratoria 
 
-
+hola
 ## Requisitos
  Hardware:
  - Arduino IDE
